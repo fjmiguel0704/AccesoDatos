@@ -8,12 +8,12 @@ import java.io.FileWriter;
 public class ApartadoB {
 	public static void main(String[] args) {
 		try {
-			String directorio = "C:\\Users\\fjmiguel\\Desktop\\2DAM\\GitHub\\AccesoDatos";
+			String directorio = "C:\\Users\\fjmiguel\\Documents\\2DAM\\AccesoDatos\\Tema2\\Ejercicios_Unidad2";
 			String rutaCarpeta = "";
 			String lineaFichero = "";	
 			String nombresDirectorios = "";
 			
-			BufferedReader fichero = new BufferedReader(new FileReader("C:\\Users\\fjmiguel\\Desktop\\2DAM\\GitHub\\AccesoDatos\\ficheros\\fichero.txt"));
+			BufferedReader fichero = new BufferedReader(new FileReader("C:\\Users\\fjmiguel\\Documents\\2DAM\\AccesoDatos\\Tema2\\Ejercicios_Unidad2\\ficheros\\fichero.txt"));
 			
 			while ((lineaFichero = fichero.readLine()) !=null) {
 				nombresDirectorios=lineaFichero.trim();

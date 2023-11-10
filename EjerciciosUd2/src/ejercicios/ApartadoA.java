@@ -8,11 +8,11 @@ public class ApartadoA {
 	public static void main(String[] args) {
 		
 		try {
-			String directorio = "C:\\Users\\fjmiguel\\Desktop\\2DAM\\GitHub\\AccesoDatos";
+			String directorio = "C:\\Users\\fjmiguel\\Documents\\2DAM\\AccesoDatos\\Tema2\\Ejercicios_Unidad2";
 			String directCreados = "";
 			String nombresDirectorios = "";
 			
-			BufferedReader fichero = new BufferedReader(new FileReader("C:\\Users\\fjmiguel\\Desktop\\2DAM\\GitHub\\AccesoDatos\\ficheros\\fichero.txt"));
+			BufferedReader fichero = new BufferedReader(new FileReader("C:\\Users\\fjmiguel\\Documents\\2DAM\\AccesoDatos\\Tema2\\Ejercicios_Unidad2\\ficheros\\fichero.txt"));
 			
 			while ((nombresDirectorios = fichero.readLine()) !=null) {
 				directCreados = directorio + "\\" + nombresDirectorios;
