@@ -9,18 +9,14 @@ public class Tarea1_2 {
 		String palabrasFichero = "";
 		int posInicioPalabra = 0;
 		int posFinalPalabra = 5;
-		String longitudFichero = "";
 		
 		try {
 			BufferedReader leerFichero = new BufferedReader(new FileReader("src\\ejercicios\\ahorcado.txt"));
-			lineaFichero = leerFichero.readLine();
-			longitudFichero = lineaFichero;
-			System.out.println(longitudFichero.length());
-			while ((lineaFichero = leerFichero.readLine()) != null &&posFinalPalabra!=longitudFichero.length()) {
-				palabrasFichero += lineaFichero + "\n";
-				palabrasFichero = palabrasFichero.substring(posInicioPalabra, posFinalPalabra);
-				posInicioPalabra+=5;
-				posFinalPalabra+=5;
+
+			while ((lineaFichero = leerFichero.readLine()) != null) {
+				for (int i = 0; i<=lineaFichero.length(); i++) {
+					
+				}
 			}
 			
 			System.out.println(palabrasFichero);
